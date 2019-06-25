@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
+  const [weatherData, setWeatherData] = useState();
+  useEffect(() => {
+    fetch('http://api.openweathermap.org/data/2.5/weather?id=294800&units=metric&APPID=ee6f1db9856f6c0e2d3bc0e424530b43')
+      .then(response => {
+        if(response.status !== 200) {
+          console.log(`Oops! something not working.
+          Response status is: ${response.status}`)
+          return;
+        }
+        return response.json()
+      }).then(data => {
+        setWeatherData(data);
+        console.log(data)
+      })
+  },[])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p></p>
     </div>
   );
 }
