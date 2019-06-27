@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tomer51m/Weather-App/static/css/main.a0e3361f.chunk.css",
+    "main.js": "/Tomer51m/Weather-App/static/js/main.4d189d72.chunk.js",
+    "main.js.map": "/Tomer51m/Weather-App/static/js/main.4d189d72.chunk.js.map",
+    "runtime~main.js": "/Tomer51m/Weather-App/static/js/runtime~main.c9810de5.js",
+    "runtime~main.js.map": "/Tomer51m/Weather-App/static/js/runtime~main.c9810de5.js.map",
+    "static/js/2.c2695c00.chunk.js": "/Tomer51m/Weather-App/static/js/2.c2695c00.chunk.js",
+    "static/js/2.c2695c00.chunk.js.map": "/Tomer51m/Weather-App/static/js/2.c2695c00.chunk.js.map",
+    "index.html": "/Tomer51m/Weather-App/index.html",
+    "precache-manifest.a21ed8643f631c48aefcedb6d796fbf0.js": "/Tomer51m/Weather-App/precache-manifest.a21ed8643f631c48aefcedb6d796fbf0.js",
+    "service-worker.js": "/Tomer51m/Weather-App/service-worker.js",
+    "static/css/main.a0e3361f.chunk.css.map": "/Tomer51m/Weather-App/static/css/main.a0e3361f.chunk.css.map"
+  }
+}
