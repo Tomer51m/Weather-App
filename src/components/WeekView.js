@@ -1,8 +1,17 @@
 import React from 'react';
+import './weekView.css';
+import DayView from './DayView';
 
 function Weekview() {
+    const weatherData = JSON.parse(localStorage.getItem('fetched data'));
     return(
-        <p>hello from Weekview</p>
+        <section className='weekView'>
+            <DayView weatherData={weatherData}/>
+            <DayView weatherData={weatherData}/>
+            <DayView weatherData={weatherData}/>
+            <DayView weatherData={weatherData}/>
+            <DayView weatherData={weatherData}/>
+        </section>
     )
 }
 

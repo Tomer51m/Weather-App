@@ -1,0 +1,32 @@
+.dayView {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 200px;
+    height: 260px;
+    margin-left: 20px;
+    transition: 250ms;
+    box-shadow: 1px 1px 5px lightgray;
+}
+
+.dayView:not(:focus):hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 15px lightgray;
+}
+
+.animate {
+    background-color: white;
+    z-index: 1;
+    transition: 1s;
+    width: 300px;
+    height: 200px;
+    transform: scale(1.7);
+    outline: none;
+}
+
+.image {
+    width: 120px;
+    height: 100px;
+}
+
